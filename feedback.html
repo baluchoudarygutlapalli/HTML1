@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.required{
+color:red;
+}
+</style>
+<script language="javascript">
+function popularity(){
+var temp;
+temp = document.getElement("state")
+</head>
+<body>
+       <b>name</b>
+       <span class="required">*</span>
+       <select name ="pref">
+            <option value="mr">Mr</option>
+            <option value="ms">Ms</option>
+            <option value="mrs">Mrs</option>
+       </select>
+	   <input type = "text" name ="tx" placeholder="your name" required><br>
+	   <b>address1</b>
+	   <span class="required">*</span>
+	   <input type="text" name="add1" placeholder="your address1" required><br>
+	   <b>address2</b>
+	   <span class="required">*</span>
+	   <input type="text" name="add2" placeholder="your address1" required><br>
+	   <b>state</b>
+	   <span class = "required">*</span>
+	   <select id = "state" name = "state" onchange="popularity">
+				<option value="ma"></option>
+				<option value="ma">Maharastra</option>
+				<option value="Tel">Telangana</option>
+				<option value="ap">Andhra Pradesh</option>
+				<option value="kar">Karnataka</option>
+		</select>
+        <b>city</b>
+		<select name = "pref">
+				<option value = "ma"></option>
+				<option value = "War">Warangal</option>
+				<option value = "Hyd">Hyderabad</option>
+				<option value = "nzmd">Nizamabad</option>
+		</select>
+        <br>
+		<b>Pin Code</b>		
+          <span class="required">*</span>
+		  <input type="number" name = "num"><br>
+		  <b>Mobile Number</b>
+		  <span class="required">*</span>
+		  <input type="text" name = "email"><br>
+		  <b>Select Car Model</b>
+		  <span class="required">*</span>
